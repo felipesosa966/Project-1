@@ -1,0 +1,20 @@
+```bash
+    #!/bin/bash
+cpu_usage_tool-h > ~/backups/freemem/free_mem.txt
+cpu_usage_tool-h > ~/backups/diskuse/disk_usage.txt
+cpu_usage tool^O > ~/backups/openlist/openlist.txt
+cpu_usage_tool-h > ~/backups/freedisk/free_disk.txt
+    ```
+
+/var/log/auth.log {
+    missingok
+    weekly
+    rotate 7
+    compress
+    delaycompress
+}
+#
+
+    ```bash
+    
+    ```
